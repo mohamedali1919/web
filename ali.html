@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GYM</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .image {
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            width: 50%;
+            height: 85%;
+        }
+        
+        img {
+            width: 38%;
+        }
+        
+        h1 {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 12%;
+            right: 16%;
+            font-size: xx-large;
+        }
+        
+        .login {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 30%;
+            right: 7%;
+            width: 600px;
+            font-size: large;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+        
+        button {
+            color: rgb(0, 0, 0);
+            display: block;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 200%;
+            width: 70%;
+            margin: auto;
+            font-style: italic;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h2 {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 50%;
+            right: 23%;
+        }
+        
+        .Register {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 60%;
+            right: 7%;
+            width: 600px;
+            font-size: large;
+            font-weight: bold;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        header .Logo {
+            position: relative;
+            font-size: 2.5em;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+        
+        header .Navigation {
+            position: absolute;
+            display: flex;
+            right: 8%;
+            top: 1%;
+        }
+        
+        header .Navigation li {
+            list-style: none;
+        }
+        
+        header .Navigation li a {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            margin-right: 30px;
+            text-decoration: none;
+            font-size: x-large;
+        }
+        
+        .social {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            width: 15%;
+            right: 50%;
+            list-style: none;
+            margin-right: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <a href="#" class="Logo">Fitness</a>
+            <ul class="Navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </header>
+    </section>
+    <div>
+        <img class="image" src="dark yellow.jpg">
+    </div>
+    <div>
+        <img src="1.png">
+        <ul class="social">
+            <li>
+                <a href="#"> <img src="facebook-512.png"></li>
+            <li>
+                <a href="#"> <img src="twitter.png"></li>
+        </ul>
+    </div>
+    <h1>The pain you feel today <span style="color: rgb(175, 1, 1);">will be the strength you feel tomorrow</span></h1>
+    <div class="login">
+        <label>Email:</label>
+        <input type="email" placeholder="Input Your Email"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <label>Password:</label>
+        <input type="password" placeholder="Input Your Password">
+        <br><br>
+        <button class="Button1">Login</button>
+    </div>
+
+    <h2>Registration Form </h2>
+    <div class="Register">
+        <label>First name:</label>
+        <input type="text" placeholder="Input Your First name"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <label>Last name:</label>
+        <input type="text" placeholder="Input Your last name">
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Input Your Email"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <label>Password:</label>
+        <input type="password" placeholder="Input Your Password">
+        <br><br>
+        <label>Age:</label>
+        <input type="text" placeholder="Input Your Age"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <label>Phone Number:</label>
+        <input type="number" placeholder="Input Your Phone">
+        <br><br>
+        <button class="Button2">Register </button>
+    </div>
+
+
+    <script type="text/javascript">
+        var Button1 = document.querySelector('.Button1')
+
+        Button1.addEventListener('click', function() {
+
+            alert('Thank you for your time')
+        })
+
+
+        var Button2 = document.querySelector('.Button2')
+
+        Button2.addEventListener('click', function() {
+
+            alert('Thank you for your time')
+        })
+    </script>
+</body>
+
+</html>
